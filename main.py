@@ -13,7 +13,7 @@ def main(artist):
     if len(cl) > 0:
         for item in cl:
             print(item)
-            download(cl)
+        download(cl)
     else:
         print("No matches found")
         quit()
